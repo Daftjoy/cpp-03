@@ -10,13 +10,13 @@
 #                                                                              #
 # **************************************************************************** #
 
-SRCS	=	main.cpp Fixed.cpp
+SRCS	=	main.cpp ClapTrap.cpp
 
 OBJS =	$(SRCS:.cpp=.o)
 
-FLAGS =	-Werror -Wextra -Wall
+FLAGS =	-Werror -Wextra -Wall -std=c++98
 
-NAME =	Fixed
+NAME =	ClapTrap
 
 RM = rm -f
 
