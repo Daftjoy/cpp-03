@@ -9,7 +9,7 @@
 
 class ClapTrap
 {
-    private:
+    protected:
         std::string Name;
         int Hitpoints;
         int Energy_points;
@@ -20,7 +20,6 @@ class ClapTrap
         ClapTrap(std::string Name);
         ClapTrap(const ClapTrap &other);
         ~ClapTrap();
-        
 
         std::string getName(void) const;
         int getHitpoints(void) const;

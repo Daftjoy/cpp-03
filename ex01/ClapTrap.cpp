@@ -10,9 +10,10 @@ ClapTrap::ClapTrap()
 
 }
 
+
 ClapTrap::ClapTrap(std::string Name)
 {
-    std::cout << "String constructor called" << std::endl;
+    std::cout << "Default constructor called" << std::endl;
     this->Name = Name;
     this->Hitpoints = 10;
     this->Energy_points = 10;
