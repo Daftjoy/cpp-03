@@ -24,9 +24,9 @@ ClapTrap::ClapTrap(const ClapTrap &other)
 {
     std::cout << "Copy constructor called" << std::endl;
     this->Name = other.Name;
-    this->Hitpoints = 10;
-    this->Energy_points = 10;
-    this->Attack_damage = 0;
+    this->Hitpoints = other.getHitpoints();
+    this->Energy_points = other.getEnergypoints();
+    this->Attack_damage = other.getAttackdamage();
 }
 
 ClapTrap::~ClapTrap()

@@ -1,12 +1,14 @@
-#include "ScavTrap.hpp"
+#include "DiamondTrap.hpp"
 
 int main(void){
-    ScavTrap clap("Hacha");
+    DiamondTrap clap("Juan");
 
     clap.attack("Enemy");
     clap.takeDamage(100);
     clap.beRepaired(50);
 
+    clap.highFivesGuys();
     clap.guardGate();
 
+    clap.whoAmI();
 }

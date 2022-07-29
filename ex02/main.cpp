@@ -1,12 +1,12 @@
-#include "ScavTrap.hpp"
+#include "FragTrap.hpp"
 
 int main(void){
-    ScavTrap clap("Hacha");
+    FragTrap clap("Hacha");
 
     clap.attack("Enemy");
     clap.takeDamage(100);
     clap.beRepaired(50);
 
-    clap.guardGate();
+    clap.highFivesGuys();
 
 }
